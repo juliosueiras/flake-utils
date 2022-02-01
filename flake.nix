@@ -2,10 +2,8 @@
 {
   description = "FlakeUtils - A Set of Utilties for Flake/Nix";
 
-  edition = 201909;
-
   inputs.nixpkgs.url =
-    "github:NixOS/nixpkgs/469f14ef0fade3ae4c07e4977638fdf3afc29e08";
+    "github:NixOS/nixpkgs/0f316e4d72daed659233817ffe52bf08e081b5de";
 
     outputs = { self, nixpkgs }: let
       pkgs = (import nixpkgs {
